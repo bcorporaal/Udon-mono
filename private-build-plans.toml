@@ -1,4 +1,7 @@
-# Command to build
+# Command to build all
+# npm run build -- contents::UdonMono --jCmd=4
+
+# Build just TTF
 # npm run build -- ttf::UdonMono --jCmd=4
 #
 # Update the installed libraries using
