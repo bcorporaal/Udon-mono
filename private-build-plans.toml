@@ -22,7 +22,7 @@ exportGlyphNames = false
 # hintParams = ["-a", "qqq"]  
 
   [buildPlans.UdonMono.metricOverride]
-  leading = 1100
+# leading = 1100
   xHeight = 540
 
   [buildPlans.UdonMono.variants]
