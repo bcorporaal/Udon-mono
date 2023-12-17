@@ -1,7 +1,10 @@
+# ignoring a lot of file types and directories to not duplicate the original Iosevka repository
 *.mjs
 *.ptl
 *.svg
 *.json
+*.DS_Store
+
 /changes
 /doc
 /font-src
@@ -12,9 +15,11 @@
 /sample-text
 /tools
 /utility
-build-plans.toml
 /dist/TTF-Unhinted
+
+build-plans.toml
 CHANGELOG.md
 iosevka@27.3.5
 private-build-plans.sample.toml
 verda
+
