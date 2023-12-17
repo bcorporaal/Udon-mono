@@ -13,7 +13,7 @@
 /tools
 /utility
 build-plans.toml
-dist/TTF-Unhinted
+/dist/TTF-Unhinted
 CHANGELOG.md
 iosevka@27.3.5
 private-build-plans.sample.toml
