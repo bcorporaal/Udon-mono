@@ -5,6 +5,7 @@
 *.json
 *.DS_Store
 
+/.build
 /changes
 /doc
 /font-src
