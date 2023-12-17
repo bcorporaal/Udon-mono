@@ -17,9 +17,11 @@
 /tools
 /utility
 /dist/UdonMono/TTF-Unhinted/
+/dist/UdonMono/WOFF2-Unhinted/
 
 build-plans.toml
 CHANGELOG.md
 iosevka@27.3.5
 private-build-plans.sample.toml
 verda
+UdonMono-Unhinted.css
