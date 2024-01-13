@@ -20,6 +20,7 @@ spacing = "Normal"
 serifs = "Sans"
 noCvSs = true
 exportGlyphNames = false
+buildTextureFeature = true
 
 # tweak some shapes?
 # hintParams = ["-a", "qqq"]  
