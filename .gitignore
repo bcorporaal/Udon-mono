@@ -8,6 +8,7 @@
 /.build
 /changes
 /doc
+/docker
 /font-src
 /images
 /node_modules
