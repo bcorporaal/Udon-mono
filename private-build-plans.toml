@@ -26,134 +26,155 @@ buildTextureFeature = true
 # hintParams = ["-a", "qqq"]  
 
   [buildPlans.UdonMono.metricOverride]
-# leading = 1100
-  xHeight = 540
+# ascender = 735    # height of b - default is 735
+# cap = 735         # height of H - default is 735
+  leading = 1100    # default is 1250
+  xHeight = 560     # height of x - default is 520
+
+# archDepth = 195   # default is 195 for regular
 
   [buildPlans.UdonMono.variants]
   inherits = "ss14"
 
-    [buildPlans.UdonMono.variants.design]
-    capital-a = "straight-serifless"
-    capital-b = "standard-bilateral-serifed"
-    capital-d = "standard-bilateral-serifed"
-    capital-g = "toothless-rounded-serifless-hooked"
-    capital-i = "short-serifed"
-    capital-j = "flat-hook-serifed"
-    capital-m = "flat-bottom-serifless"
-    capital-n = "asymmetric-serifless"
-    capital-q = "curly-tailed"
-    capital-r = "straight-serifless"
-    capital-v = "straight-serifless"
-    capital-w = "straight-flat-top-serifless"
-    capital-x = "curly-serifless"
-    capital-y = "curly-serifless"
-    capital-z = "curly-serifless"
-    a = "single-storey-serifless"
-    b = "toothed-serifless"
-    f = "flat-hook-serifless"
-    g = "double-storey-open"
-    h = "straight-serifless"
-    i = "hooky"
-    j = "flat-hook-serifed"
-    l = "serifed-flat-tailed"
-    m = "serifless"
-    n = "straight-serifless"
-    p = "eared-serifless"
-    q = "straight-serifless"
-    r = "serifless"
-    s = "serifless"
-    t = "flat-hook"
-    u = "toothless-rounded-serifless"
-    w = "straight-serifless"
-    x = "curly-serifless"
-    y = "curly-serifless"
-    z = "curly-serifless"
-    zero = "dotted"
-    one = "no-base"
-    two = "straight-neck-serifless"
-    three = "two-arcs"
-    four = "semi-open-non-crossing-serifless"
-    five = "upright-arched-serifless"
-    six = "straight-bar"
-    seven = "straight-serifless-crossbar"
-    eight = "two-circles"
-    nine = "straight-bar"
-    diacritic-dot = "round"
-    punctuation-dot = "round"
-    asterisk = "turn-hex-low"
-    ascii-grave = "raised-inverse-comma"
-    ascii-single-quote = "raised-comma"
-    paren = 'flat-arc'
-    brace = "curly-flat-boundary"
-    guillemet = 'straight'
-    number-sign = "upright"
-    ampersand = "flat-top"
-    at = "threefold-tall"
-    dollar = "open"
-    cent = "open"
-    percent = "rings-segmented-slash"
-    question = "smooth"
-    lig-single-arrow-bar = "without-notch"
+  [buildPlans.UdonMono.ligations]
+  inherits = "calt"
+  enables = [
+        "eqslasheq",
+        "kern-dotty",
+        "kern-bars",
+        "llggeq",
+        "connected-underscore", 
+        "connected-number-sign",
+        "connected-hyphen",
+        "minus-minus-minus",
+        "plus-plus-plus",
+        "underscore-underscore-underscore",
+        "hash-hash-hash",
+        "slash-asterisk"
+    ]
 
-[buildPlans.UdonMono.weights.Thin]
-shape = 100
-menu = 100
-css = 100
+  [buildPlans.UdonMono.variants.design]
+  capital-a = "straight-serifless"
+  capital-b = "standard-bilateral-serifed"
+  capital-d = "standard-bilateral-serifed"
+  capital-g = "toothless-rounded-serifless-hooked"
+  capital-i = "short-serifed"
+  capital-j = "flat-hook-serifed"
+  capital-m = "flat-bottom-serifless"
+  capital-n = "asymmetric-serifless"
+  capital-q = "curly-tailed"
+  capital-r = "straight-serifless"
+  capital-v = "straight-serifless"
+  capital-w = "straight-flat-top-serifless"
+  capital-x = "curly-serifless"
+  capital-y = "curly-serifless"
+  capital-z = "curly-serifless"
+  a = "single-storey-serifless"
+  b = "toothed-serifless"
+  f = "flat-hook-serifless"
+  g = "double-storey-open"
+  h = "straight-serifless"
+  i = "hooky"
+  j = "flat-hook-serifed"
+  l = "serifed-flat-tailed"
+  m = "serifless"
+  n = "straight-serifless"
+  p = "eared-serifless"
+  q = "straight-serifless"
+  r = "serifless"
+  s = "serifless"
+  t = "flat-hook"
+  u = "toothless-rounded-serifless"
+  w = "straight-serifless"
+  x = "curly-serifless"
+  y = "curly-serifless"
+  z = "curly-serifless"
+  zero = "dotted"
+  one = "no-base"
+  two = "straight-neck-serifless"
+  three = "two-arcs"
+  four = "semi-open-non-crossing-serifless"
+  five = "upright-arched-serifless"
+  six = "straight-bar"
+  seven = "straight-serifless-crossbar"
+  eight = "two-circles"
+  nine = "straight-bar"
+  diacritic-dot = "round"
+  punctuation-dot = "round"
+  asterisk = "turn-hex-low"
+  ascii-grave = "raised-inverse-comma"
+  ascii-single-quote = "raised-comma"
+  paren = 'flat-arc'
+  brace = "curly-flat-boundary"
+  guillemet = 'straight'
+  number-sign = "upright"
+  ampersand = "flat-top"
+  at = "threefold-tall"
+  dollar = "open"
+  cent = "open"
+  percent = "rings-segmented-slash"
+  question = "smooth"
+  lig-single-arrow-bar = "without-notch"
 
-[buildPlans.UdonMono.weights.ExtraLight]
-shape = 200
-menu = 200
-css = 200
+# [buildPlans.UdonMono.weights.Thin]
+# shape = 100
+# menu = 100
+# css = 100
+
+# [buildPlans.UdonMono.weights.ExtraLight]
+# shape = 200
+# menu = 200
+# css = 200
 
 [buildPlans.UdonMono.weights.Light]
-shape = 300
+shape = 250 # default is 300
 menu = 300
 css = 300
 
 [buildPlans.UdonMono.weights.Regular]
-shape = 400
+shape = 350
 menu = 400
 css = 400
 
-[buildPlans.UdonMono.weights.Medium]
-shape = 500
-menu = 500
-css = 500
+# [buildPlans.UdonMono.weights.Medium]
+# shape = 500
+# menu = 500
+# css = 500
 
 [buildPlans.UdonMono.weights.Bold]
-shape = 700
+shape = 600 # default is 700
 menu = 700
 css = 700
 
-[buildPlans.UdonMono.weights.Heavy]
-shape = 900
-menu = 900
-css = 900
+# [buildPlans.UdonMono.weights.Heavy]
+# shape = 900
+# menu = 900
+# css = 900
 
 [buildPlans.UdonMono.widths.Normal]
-shape = 500
+shape = 575 # default is 500
 menu = 5
 css = "normal"
 
 [buildPlans.UdonMono.widths.Extended]
-shape = 600
+shape = 640 # default is 600
 menu = 7
 css = "expanded"
 
 [buildPlans.UdonMono.widths.Condensed]
-shape = 416
+shape = 450 # default 416
 menu = 3
 css = "condensed"
 
-[buildPlans.UdonMono.widths.SemiExtended]
-shape = 548
-menu = 6
-css = "semi-expanded"
+# [buildPlans.UdonMono.widths.SemiExtended]
+# shape = 548
+# menu = 6
+# css = "semi-expanded"
 
-[buildPlans.UdonMono.widths.UltraExtended]
-shape = 720
-menu = 9
-css = "ultra-expanded"
+# [buildPlans.UdonMono.widths.UltraExtended]
+# shape = 720
+# menu = 9
+# css = "ultra-expanded"
 
 [buildPlans.UdonMono.slopes.Upright]
 angle = 0
