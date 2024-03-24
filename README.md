@@ -1,5 +1,5 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="asssets/udon_mono_title_dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/udon_mono_title_dark.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/udon_mono_title_light.png">
   <img alt="Udon mono title" src="assets/udon_mono_title_light.png">
 </picture>
