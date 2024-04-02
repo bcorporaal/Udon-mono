@@ -213,7 +213,7 @@ menu = "upright"
 css = "normal"
 
 [buildPlans.UdonMono.slopes.Italic]
-angle = 9.4
+angle = 12.5 # default is 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
