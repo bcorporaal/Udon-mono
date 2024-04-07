@@ -7,15 +7,6 @@
 # Update the installed libraries using
 # npm install
 
-[UdonMono]
-naming.copyright = 'Copyright 2015-{{currentYear}}, Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Customizations by Bob Corporaal'
-naming.licence = '''This font software is licenced under the SIL Open Font Licence, Version 1.1. This licence is available with a FAQ at: http://scripts.sil.org/OFL. This font software is distributed on an 'AS IS' basis, without warranties or conditions of any kind, either express or implied. See the SIL Open Font licence for the specific language, permissions and limitations governing your use of this font software.'''
-naming.manufacturer = 'Belleve Invis (original font), Bob Corporaal (customizations)'
-naming.designer = 'Belleve Invis (original font), Bob Corporaal (customizations)'
-naming.urlVendor = 'https://github.com/bcorporaal/Udon-mono'
-naming.urlDesigner = 'https://github.com/bcorporaal/Udon-mono'
-naming.description = 'A clean and lightweight customization of Iosevka.'
-
 [buildPlans.UdonMono]
 family = "Udon mono"
 spacing = "Normal"
@@ -26,6 +17,15 @@ buildTextureFeature = true
 
 # tweak some shapes?
 # hintParams = ["-a", "qqq"]  
+
+  [buildPlans.UdonMono.namingOverride]
+  copyright = 'Copyright 2015-{{currentYear}}, Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Customizations by Bob Corporaal'
+  licence = '''This font software is licenced under the SIL Open Font Licence, Version 1.1. This licence is available with a FAQ at: http://scripts.sil.org/OFL. This font software is distributed on an 'AS IS' basis, without warranties or conditions of any kind, either express or implied. See the SIL Open Font licence for the specific language, permissions and limitations governing your use of this font software.'''
+  manufacturer = 'Belleve Invis (original font), Bob Corporaal (customizations)'
+  designer = 'Belleve Invis (original font), Bob Corporaal (customizations)'
+  urlVendor = 'https://github.com/bcorporaal/Udon-mono'
+  urlDesigner = 'https://github.com/bcorporaal/Udon-mono'
+  description = 'A clean and lightweight customization of Iosevka.'
 
   [buildPlans.UdonMono.metricOverride]
 # ascender = 735    # height of b - default is 735
