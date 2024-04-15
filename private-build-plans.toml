@@ -164,7 +164,7 @@ menu = 300
 css = 300
 
 [buildPlans.UdonMono.weights.Regular]
-shape = 350
+shape = 350 # default is 400
 menu = 400
 css = 400
 
