@@ -2,6 +2,60 @@
 @font-face {
 	font-family: 'Udon mono Web';
 	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-Thin.woff2') format('woff2'), url('TTF/UdonMono-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-ExtendedThin.woff2') format('woff2'), url('TTF/UdonMono-ExtendedThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-CondensedThin.woff2') format('woff2'), url('TTF/UdonMono-CondensedThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-ThinItalic.woff2') format('woff2'), url('TTF/UdonMono-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-ExtendedThinItalic.woff2') format('woff2'), url('TTF/UdonMono-ExtendedThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-CondensedThinItalic.woff2') format('woff2'), url('TTF/UdonMono-CondensedThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
 	font-weight: 300;
 	font-stretch: normal;
 	font-style: normal;
@@ -159,4 +213,112 @@
 	font-stretch: condensed;
 	font-style: italic;
 	src: url('WOFF2/UdonMono-CondensedBoldItalic.woff2') format('woff2'), url('TTF/UdonMono-CondensedBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-Heavy.woff2') format('woff2'), url('TTF/UdonMono-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-ExtendedHeavy.woff2') format('woff2'), url('TTF/UdonMono-ExtendedHeavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-CondensedHeavy.woff2') format('woff2'), url('TTF/UdonMono-CondensedHeavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-HeavyItalic.woff2') format('woff2'), url('TTF/UdonMono-HeavyItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-ExtendedHeavyItalic.woff2') format('woff2'), url('TTF/UdonMono-ExtendedHeavyItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-CondensedHeavyItalic.woff2') format('woff2'), url('TTF/UdonMono-CondensedHeavyItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 1000;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-Ultra.woff2') format('woff2'), url('TTF/UdonMono-Ultra.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 1000;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-ExtendedUltra.woff2') format('woff2'), url('TTF/UdonMono-ExtendedUltra.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 1000;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url('WOFF2/UdonMono-CondensedUltra.woff2') format('woff2'), url('TTF/UdonMono-CondensedUltra.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 1000;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-UltraItalic.woff2') format('woff2'), url('TTF/UdonMono-UltraItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 1000;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-ExtendedUltraItalic.woff2') format('woff2'), url('TTF/UdonMono-ExtendedUltraItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Udon mono Web';
+	font-display: swap;
+	font-weight: 1000;
+	font-stretch: condensed;
+	font-style: italic;
+	src: url('WOFF2/UdonMono-CondensedUltraItalic.woff2') format('woff2'), url('TTF/UdonMono-CondensedUltraItalic.ttf') format('truetype');
 }

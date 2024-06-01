@@ -148,10 +148,10 @@ buildTextureFeature = true
   z = "cursive"
   seven = "bend-serifed-crossbar"
 
-# [buildPlans.UdonMono.weights.Thin]
-# shape = 100
-# menu = 100
-# css = 100
+[buildPlans.UdonMono.weights.Thin]
+shape = 100
+menu = 100
+css = 100
 
 # [buildPlans.UdonMono.weights.ExtraLight]
 # shape = 200
@@ -178,10 +178,15 @@ shape = 600 # default is 700
 menu = 700
 css = 700
 
-# [buildPlans.UdonMono.weights.Heavy]
-# shape = 900
-# menu = 900
-# css = 900
+[buildPlans.UdonMono.weights.Heavy]
+shape = 900
+menu = 900
+css = 900
+
+[buildPlans.UdonMono.weights.Ultra]
+shape = 1000
+menu = 1000
+css = 1000
 
 [buildPlans.UdonMono.widths.Normal]
 shape = 575 # default is 500
