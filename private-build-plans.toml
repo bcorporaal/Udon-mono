@@ -285,3 +285,51 @@ enables = [
       "slash-asterisk"
   ]
 
+#######################################################################
+
+[buildPlans.UdonGrotesk]
+family = "Udon grotesk"
+
+weights.inherits = "buildPlans.UdonMono"
+widths.inherits = "buildPlans.UdonMono"
+slopes.inherits = "buildPlans.UdonMono"
+
+spacing = "quasi-proportional"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+buildTextureFeature = true
+
+[buildPlans.UdonGrotesk.namingOverride]
+copyright = 'Copyright 2015-{{currentYear}}, Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Customizations by Bob Corporaal'
+licence = '''This font software is licenced under the SIL Open Font Licence, Version 1.1. This licence is available with a FAQ at: http://scripts.sil.org/OFL. This font software is distributed on an 'AS IS' basis, without warranties or conditions of any kind, either express or implied. See the SIL Open Font licence for the specific language, permissions and limitations governing your use of this font software.'''
+manufacturer = 'Belleve Invis (original font), Bob Corporaal (customizations)'
+designer = 'Belleve Invis (original font), Bob Corporaal (customizations)'
+urlVendor = 'https://github.com/bcorporaal/Udon-mono'
+urlDesigner = 'https://github.com/bcorporaal/Udon-mono'
+description = 'A clean and lightweight customization of Iosevka.'
+
+[buildPlans.UdonGrotesk.variants]
+inherits = "buildPlans.UdonMono"
+
+[buildPlans.UdonGrotesk.metricOverride]
+leading = 1100    # default is 1250
+xHeight = 560     # height of x - default is 520
+
+[buildPlans.UdonGrotesk.ligations]
+inherits = "calt"
+enables = [
+      "eqslasheq",
+      "kern-dotty",
+      "kern-bars",
+      "llggeq",
+      "connected-underscore", 
+      "connected-number-sign",
+      "connected-hyphen",
+      "minus-minus-minus",
+      "plus-plus-plus",
+      "underscore-underscore-underscore",
+      "hash-hash-hash",
+      "slash-asterisk"
+  ]
+
