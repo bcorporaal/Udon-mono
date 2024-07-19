@@ -1,14 +1,19 @@
-# Command to build all main UdonMono(TTF and WOFF2, both hinted and unhinted)
+# Command to build UdonMono(TTF and WOFF2, both hinted and unhinted)
 # npm run build -- contents::UdonMono --jCmd=4
 
-# Build just TTF (hinted and unhinted)
+# Build just TTF UdonMono (hinted and unhinted)
 # npm run build -- ttf::UdonMono --jCmd=4
 
-# Build UdonMonoWeb (just WOFF2, both hinted and unhinted)
+# Build UdonMonoWeb (TTF and WOFF2, both hinted and unhinted)
 # npm run build -- webfont::UdonMonoWeb --jCmd=4
+
+# Build UdonGrotesk (TTF and WOFF2, both hinted and unhinted)
+# npm run build -- contents::UdonGrotesk --jCmd=4
 
 # Update the installed libraries using
 # npm install
+
+#######################################################################
 
 [buildPlans.UdonMono]
 family = "Udon mono"
@@ -242,6 +247,8 @@ serifs = "Sans"
 noCvSs = true
 exportGlyphNames = false
 buildTextureFeature = true
+
+webfontFormats = ['ttf', 'woff2']
 
 [buildPlans.UdonMonoWeb.namingOverride]
 copyright = 'Copyright 2015-{{currentYear}}, Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Customizations by Bob Corporaal'
