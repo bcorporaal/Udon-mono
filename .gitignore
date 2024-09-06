@@ -19,6 +19,8 @@
 /utility
 /dist/UdonMono/TTF-Unhinted/
 /dist/UdonMono/WOFF2-Unhinted/
+/dist/UdonGrotesk/WOFF2-Unhinted/
+/dist/UdonGrotesk/TTF-Unhinted/
 
 build-plans.toml
 CHANGELOG.md
