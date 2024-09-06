@@ -47,87 +47,87 @@ buildTextureFeature = true
   inherits = "ss14"
 
   [buildPlans.UdonMono.ligations]
-  inherits = "calt"
+  inherits = "default-calt"
   enables = [
-        "eqslasheq",
-        "kern-dotty",
-        "kern-bars",
-        "llggeq",
-        "connected-underscore", 
-        "connected-number-sign",
-        "connected-hyphen",
-        "minus-minus-minus",
-        "plus-plus-plus",
-        "underscore-underscore-underscore",
-        "hash-hash-hash",
-        "slash-asterisk"
+      "eqslasheq",
+      "kern-dotty",
+      "kern-bars",
+      "llggeq",
+      "underscore-underscore", 
+      "hash-hash",
+      "minus-minus-minus",
+      "plus-plus-plus",
+      "underscore-underscore-underscore",
+      "hash-hash-hash",
+      "slash-asterisk"
     ]
 
   [buildPlans.UdonMono.variants.design]
-  capital-a = "straight-serifless"
-  capital-b = "standard-bilateral-serifed"
-  capital-d = "standard-bilateral-serifed"
-  capital-g = "toothless-rounded-serifless-hooked"
-  capital-i = "short-serifed"
-  capital-j = "flat-hook-serifed"
-  capital-m = "flat-bottom-serifless"
-  capital-n = "asymmetric-serifless"
-  capital-q = "curly-tailed"
-  capital-r = "straight-serifless"
-  capital-t = "motion-serifed"
-  capital-v = "straight-serifless"
-  capital-w = "straight-flat-top-serifless"
-  capital-x = "curly-serifless"
-  capital-y = "curly-serifless"
-  capital-z = "curly-serifless"
-  a = "single-storey-serifless"
-  b = "toothed-serifless"
-  f = "flat-hook-serifless"
-  g = "double-storey-open"
-  h = "straight-serifless"
-  i = "hooky"
-  j = "flat-hook-serifed"
-  l = "serifed-flat-tailed"
-  m = "serifless"
-  n = "straight-serifless"
-  p = "eared-serifless"
-  q = "straight-serifless"
-  r = "serifless"
-  s = "serifless"
-  t = "flat-hook"
-  u = "toothless-rounded-serifless"
-  w = "straight-serifless"
-  x = "curly-serifless"
-  y = "curly-serifless"
-  z = "curly-serifless"
-  zero = "dotted"
   one = "no-base"
-  two = "straight-neck-serifless"
-  three = "two-arcs"
-  four = "semi-open-non-crossing-serifless"
-  five = "upright-arched-serifless"
-  six = "straight-bar"
-  seven = "straight-serifless-crossbar"
-  eight = "two-circles"
-  nine = "straight-bar"
-  diacritic-dot = "round"
-  punctuation-dot = "round"
-  asterisk = "turn-hex-low"
-  ascii-grave = "raised-inverse-comma"
-  ascii-single-quote = "raised-comma"
-  paren = 'flat-arc'
-  brace = "curly-flat-boundary"
-  guillemet = 'straight'
-  number-sign = "upright"
-  ampersand = "flat-top"
-  at = "threefold-tall"
-  dollar = "open"
-  cent = "open"
-  percent = "rings-segmented-slash"
-  question = "smooth"
-  lig-single-arrow-bar = "without-notch"
+    two = "straight-neck-serifless"
+    three = "two-arcs"
+    four = "semi-open-non-crossing-serifless"
+    five = "upright-arched-serifless"
+    six = "straight-bar"
+    seven = "straight-serifless-crossbar"
+    eight = "two-circles"
+    nine = "straight-bar"
+    zero = "dotted"
+    capital-a = "straight-serifless"
+    capital-b = "standard-bilateral-serifed"
+    capital-d = "standard-bilateral-serifed"
+    capital-g = "toothless-rounded-serifless-hooked"
+    capital-i = "short-serifed"
+    capital-j = "flat-hook-serifed"
+    capital-m = "flat-bottom-serifless"
+    capital-n = "asymmetric-serifless"
+    capital-q = "curly-tailed"
+    capital-r = "straight-serifless"
+    capital-t = "motion-serifed"
+    capital-v = "straight-serifless"
+    capital-w = "straight-flat-top-serifless"
+    capital-x = "curly-serifless"
+    capital-y = "curly-serifless"
+    capital-z = "curly-serifless"
+    a = "single-storey-serifless"
+    b = "toothed-serifless"
+    f = "flat-hook-serifless"
+    g = "double-storey-open"
+    h = "straight-serifless"
+    i = "hooky"
+    j = "flat-hook-serifed"
+    l = "serifed-flat-tailed"
+    m = "serifless"
+    n = "straight-serifless"
+    p = "eared-serifless"
+    q = "straight-serifless"
+    r = "serifless"
+    s = "serifless"
+    t = "flat-hook"
+    u = "toothless-rounded-serifless"
+    w = "straight-serifless"
+    x = "curly-serifless"
+    y = "curly-serifless"
+    z = "curly-serifless"
+    diacritic-dot = "round"
+    punctuation-dot = "round"
+    asterisk = "turn-hex-low"
+    ascii-grave = "raised-inverse-comma"
+    ascii-single-quote = "raised-comma"
+    paren = "flat-arc"
+    brace = "curly-flat-boundary"
+    guillemet = "straight"
+    number-sign = "upright"
+    ampersand = "flat-top"
+    at = "threefold-tall"
+    dollar = "slanted-open"
+    cent = "slanted-open"
+    percent = "rings-segmented-slash"
+    question = "smooth"
+    lig-single-arrow-bar = "without-notch"
 
   [buildPlans.UdonMono.variants.italic]
+  seven = "bend-serifless-crossbar"
   capital-t = "motion-serifed"
   a = "single-storey-tailed"
   b = "toothed-serifless"
@@ -151,10 +151,9 @@ buildTextureFeature = true
   u = "toothed-serifless"
   v = "cursive-serifed"
   w = "cursive-serifless"
-  x = "cursive"
+  x = "curly-serifless"
   y = "cursive-serifless"
   z = "cursive"
-  seven = "bend-serifed-crossbar"
 
 [buildPlans.UdonMono.weights.Thin]
 shape = 100
@@ -248,8 +247,6 @@ noCvSs = true
 exportGlyphNames = false
 buildTextureFeature = true
 
-webfontFormats = ['ttf', 'woff2']
-
 [buildPlans.UdonMonoWeb.namingOverride]
 copyright = 'Copyright 2015-{{currentYear}}, Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Customizations by Bob Corporaal'
 licence = '''This font software is licenced under the SIL Open Font Licence, Version 1.1. This licence is available with a FAQ at: http://scripts.sil.org/OFL. This font software is distributed on an 'AS IS' basis, without warranties or conditions of any kind, either express or implied. See the SIL Open Font licence for the specific language, permissions and limitations governing your use of this font software.'''
@@ -276,15 +273,14 @@ leading = 1100    # default is 1250
 xHeight = 560     # height of x - default is 520
 
 [buildPlans.UdonMonoWeb.ligations]
-inherits = "calt"
+inherits = "default-calt"
 enables = [
       "eqslasheq",
       "kern-dotty",
       "kern-bars",
       "llggeq",
-      "connected-underscore", 
-      "connected-number-sign",
-      "connected-hyphen",
+      "underscore-underscore", 
+      "hash-hash",
       "minus-minus-minus",
       "plus-plus-plus",
       "underscore-underscore-underscore",
@@ -324,15 +320,14 @@ leading = 1100    # default is 1250
 xHeight = 560     # height of x - default is 520
 
 [buildPlans.UdonGrotesk.ligations]
-inherits = "calt"
+inherits = "default-calt"
 enables = [
       "eqslasheq",
       "kern-dotty",
       "kern-bars",
       "llggeq",
-      "connected-underscore", 
-      "connected-number-sign",
-      "connected-hyphen",
+      "underscore-underscore", 
+      "hash-hash",
       "minus-minus-minus",
       "plus-plus-plus",
       "underscore-underscore-underscore",
