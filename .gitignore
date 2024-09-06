@@ -21,6 +21,7 @@
 /dist/UdonMono/WOFF2-Unhinted/
 /dist/UdonGrotesk/WOFF2-Unhinted/
 /dist/UdonGrotesk/TTF-Unhinted/
+/dist/UdonMonoWeb/TTF-Unhinted/
 
 build-plans.toml
 CHANGELOG.md
@@ -28,5 +29,6 @@ iosevka@27.3.5
 private-build-plans.sample.toml
 verda
 UdonMono-Unhinted.css
+UdonGrotesk-Unhinted.css
 /asset-originals
 
