@@ -10,6 +10,12 @@
 # Build UdonGrotesk (TTF and WOFF2, both hinted and unhinted)
 # npm run build -- contents::UdonGrotesk --jCmd=4
 
+# Build all the plans included in private-build-plans.toml using the shell script
+# ./build-all.sh
+
+# If needed make the shell script executable
+# chmod +x build-all.sh
+
 # Update the installed libraries using
 # npm install
 
