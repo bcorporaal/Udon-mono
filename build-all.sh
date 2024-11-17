@@ -6,5 +6,5 @@ build_plans=$(awk -F'.' '/^\[buildPlans/ {gsub(/\]$/, "", $2); print $2}' privat
 # Run the build command for each unique plan
 for plan in $build_plans; do
     echo "Building plan: $plan"
-    npm run build -- contents::$plan
+    npm run build -- contents::$plan --jCmd=4
 done
