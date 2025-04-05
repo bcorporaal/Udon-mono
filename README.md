@@ -1,6 +1,4 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/udon_mono_title.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/udon_mono_title.png">
   <img alt="Udon mono title" src="assets/udon_mono_title.png">
 </picture>
 
@@ -13,3 +11,9 @@ See the comments in `private-build-plans.toml` for details on how to build a fre
 To customize Udon mono further and build your own fonts, see the [Iosevka build instructions](https://github.com/be5invis/Iosevka/blob/main/doc/custom-build.md) or [this walkthrough for macOS](https://kau.sh/blog/build-iosevka-font-mac-os/), and use the *private-build-plans* from this repository as a starting point.
 
 The fonts are licensed according to the [Iosevka SIL Open Font License v1.1](https://github.com/bcorporaal/Udon-mono?tab=OFL-1.1-1-ov-file). Everything else in this repository is under a [MIT License](https://github.com/bcorporaal/Udon-mono?tab=MIT-2-ov-file).
+
+&nbsp;
+
+<picture>
+  <img alt="Udon mono title" src="assets/udon_mono_title.png">
+</picture>
