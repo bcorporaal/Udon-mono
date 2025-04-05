@@ -15,5 +15,5 @@ The fonts are licensed according to the [Iosevka SIL Open Font License v1.1](htt
 &nbsp;
 
 <picture>
-  <img alt="Udon mono title" src="assets/udon_mono_title.png">
+  <img alt="Udon mono title" src="assets/udon_grotesk_title.png">
 </picture>
