@@ -28,6 +28,7 @@ serifs = "Sans"
 noCvSs = true
 exportGlyphNames = false
 buildTextureFeature = true
+# Turn texture healing on in css using font-feature-settings: "TXTR" 1
 
 # tweak some shapes?
 # hintParams = ["-a", "qqq"]  
