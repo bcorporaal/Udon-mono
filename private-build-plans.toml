@@ -266,13 +266,17 @@ description = 'A clean and lightweight customization of Iosevka.'
 inherits = "buildPlans.UdonMono"
 
 [buildPlans.UdonMonoWeb.excludeChars]
-ranges = [[0x0180,0x02ff],
-          [0x0370,0x1fff],
-          [0x2100,0x26ff],
-          [0x2800,0x28ff],
-          [0x2980,0x2aff],
-          [0x2c60,0x1f64f],
-          [0x1fb00,0x1fbf9]]
+ranges = [
+  [0x0180, 0x02FF],   # Latin Extended-B, IPA, spacing modifier letters
+  [0x0370, 0x1FFF],   # Non-Latin scripts (Greek, Cyrillic, Arabic, Hebrew, …)
+  [0x2100, 0x218F],   # Letterlike symbols & number forms (not arrows/math)
+  [0x2300, 0x24FF],   # Misc technical, control pictures, OCR, enclosed alphanumerics
+  [0x2580, 0x26FF],   # Block elements, geometric shapes, misc symbols
+  [0x2800, 0x28FF],   # Braille
+  [0x2900, 0x2BFF],   # Supplemental arrows & misc symbols (beyond BMP arrows)
+  [0x2C00, 0x2E7F],   # Latin Extended-C/D/E, supplemental punctuation
+  [0x1F000, 0x1FFFF], # Emoji & pictographs (SMP)
+]
 
 [buildPlans.UdonMonoWeb.metricOverride]
 leading = 1100    # default is 1250
