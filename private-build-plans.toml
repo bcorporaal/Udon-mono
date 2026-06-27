@@ -154,7 +154,7 @@ buildTextureFeature = true
   lig-hyphen-chain = "without-notch"
 
   [buildPlans.UdonMono.variants.italic]
-  digit-form = "old-style"
+  digit-form = "lining"
   seven = "bend-serifless-crossbar"
   capital-t = "motion-serifed"
   a = "single-storey-tailed"
