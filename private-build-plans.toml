@@ -70,70 +70,122 @@ buildTextureFeature = true
     ]
 
   [buildPlans.UdonMono.variants.design]
+  digit-form = "lining"
   one = "no-base"
-    two = "straight-neck-serifless"
-    three = "two-arcs"
-    four = "semi-open-non-crossing-serifless"
-    five = "upright-arched-serifless"
-    six = "straight-bar"
-    seven = "straight-serifless-crossbar"
-    eight = "two-circles"
-    nine = "straight-bar"
-    zero = "dotted"
-    capital-a = "straight-serifless"
-    capital-b = "standard-bilateral-serifed"
-    capital-d = "standard-bilateral-serifed"
-    capital-g = "toothless-rounded-serifless-hooked"
-    capital-i = "short-serifed"
-    capital-j = "flat-hook-serifed"
-    capital-m = "flat-bottom-serifless"
-    capital-n = "asymmetric-serifless"
-    capital-q = "curly-tailed"
-    capital-r = "straight-serifless"
-    capital-t = "motion-serifed"
-    capital-v = "straight-serifless"
-    capital-w = "straight-flat-top-serifless"
-    capital-x = "curly-serifless"
-    capital-y = "curly-serifless"
-    capital-z = "curly-serifless"
-    a = "single-storey-serifless"
-    b = "toothed-serifless"
-    f = "flat-hook-serifless"
-    g = "double-storey-open"
-    h = "straight-serifless"
-    i = "hooky"
-    j = "flat-hook-serifed"
-    l = "serifed-flat-tailed"
-    m = "serifless"
-    n = "straight-serifless"
-    p = "eared-serifless"
-    q = "straight-serifless"
-    r = "serifless"
-    s = "serifless"
-    t = "flat-hook"
-    u = "toothless-rounded-serifless"
-    w = "straight-serifless"
-    x = "curly-serifless"
-    y = "curly-serifless"
-    z = "curly-serifless"
-    diacritic-dot = "round"
-    punctuation-dot = "round"
-    asterisk = "turn-hex-low"
-    ascii-grave = "raised-inverse-comma"
-    ascii-single-quote = "raised-comma"
-    paren = "flat-arc"
-    brace = "curly-flat-boundary"
-    guillemet = "straight"
-    number-sign = "upright"
-    ampersand = "flat-top"
-    at = "threefold-tall"
-    dollar = "slanted-open"
-    cent = "slanted-open"
-    percent = "rings-segmented-slash"
-    question = "smooth"
-    lig-single-arrow-bar = "without-notch"
+  two = "straight-neck-serifless"
+  three = "two-arcs"
+  four = "semi-open-non-crossing-serifless"
+  five = "upright-arched-serifless"
+  six = "straight-bar"
+  seven = "straight-serifless-crossbar"
+  eight = "two-circles"
+  nine = "straight-bar"
+  zero = "dotted"
+  capital-a = "straight-serifless"
+  capital-b = "standard-bilateral-serifed"
+  capital-c = "serifless" # added (ss14)
+  capital-d = "standard-bilateral-serifed"
+  capital-e = "serifless" # added (ss14)
+  capital-f = "serifless" # added (ss14)
+  capital-g = "toothless-rounded-serifless-hooked"
+  capital-h = "serifless" # added (ss14)
+  capital-i = "short-serifed"
+  capital-j = "flat-hook-serifed"
+  capital-k = "symmetric-connected-serifless" # added (ss14)
+  capital-l = "serifless" # added (ss14)
+  capital-m = "flat-bottom-serifless"
+  capital-n = "asymmetric-serifless"
+  capital-p = "closed-serifless" # added (ss14)
+  capital-q = "curly-tailed"
+  capital-r = "straight-serifless"
+  capital-s = "serifless" # added (ss14)
+  capital-t = "motion-serifed"
+  capital-u = "toothless-rounded-serifless" # added (ss14)
+  capital-v = "straight-serifless"
+  capital-w = "straight-flat-top-serifless"
+  capital-x = "curly-serifless"
+  capital-y = "curly-serifless"
+  capital-z = "curly-serifless"
+  a = "single-storey-serifless"
+  b = "toothed-serifless"
+  c = "serifless" # added (ss14)
+  d = "toothed-serifless" # added (ss14)
+  e = "flat-crossbar" # added (ss14)
+  f = "flat-hook-serifless"
+  g = "double-storey-open"
+  h = "straight-serifless"
+  i = "hooky"
+  j = "flat-hook-serifed"
+  k = "symmetric-connected-serifless" # added (ss14)
+  l = "serifed-flat-tailed"
+  m = "serifless"
+  n = "straight-serifless"
+  p = "eared-serifless"
+  q = "straight-serifless"
+  r = "serifless"
+  s = "serifless"
+  t = "flat-hook"
+  u = "toothless-rounded-serifless"
+  v = "straight-serifless" # added (ss14)
+  w = "straight-serifless"
+  x = "curly-serifless"
+  y = "curly-serifless"
+  z = "curly-serifless"
+  long-s = "flat-hook-serifless" # added (ss14)
+  eszet = "sulzbacher-serifless" # added (ss14)
+  lower-eth = "straight-bar" # added (ss14)
+  lower-alpha = "barred" # added (ss14)
+  lower-gamma = "straight" # added (ss14)
+  lower-delta = "flat-top" # added (ss14)
+  lower-theta = "capsule" # added (ss14)
+  lower-iota = "serifed-flat-tailed" # added (ss14)
+  lower-kappa = "symmetric-connected-serifless" # added (ss14)
+  lower-lambda = "straight" # added (ss14)
+  lower-mu = "toothed-serifless" # added (ss14)
+  lower-nu = "straight" # added (ss14)
+  lower-xi = "rounded" # added (ss14)
+  lower-tau = "flat-tailed" # added (ss14)
+  lower-upsilon = "straight-serifless" # added (ss14)
+  lower-chi = "straight-above-baseline-serifless" # added (ss14)
+  lower-psi = "flat-top-serifless" # added (ss14)
+  cyrl-a = "double-storey-serifless" # added (ss14)
+  cyrl-ve = "standard-serifless" # added (ss14)
+  cyrl-capital-zhe = "symmetric-connected" # added (ss14)
+  cyrl-zhe = "symmetric-connected" # added (ss14)
+  cyrl-capital-ka = "symmetric-connected-serifless" # added (ss14)
+  cyrl-ka = "symmetric-connected-serifless" # added (ss14)
+  cyrl-em = "hanging-serifless" # added (ss14)
+  cyrl-capital-u = "straight-serifless" # added (ss14)
+  cyrl-u = "straight-serifless" # added (ss14)
+  cyrl-ef = "serifless" # added (ss14)
+  cyrl-yeri = "corner" # added (ss14)
+  cyrl-yery = "corner" # added (ss14)
+  cyrl-capital-ya = "straight-serifless" # added (ss14)
+  cyrl-ya = "straight-serifless" # added (ss14)
+  diacritic-dot = "round"
+  punctuation-dot = "round"
+  asterisk = "turn-hex-low"
+  ascii-grave = "raised-inverse-comma"
+  ascii-single-quote = "raised-comma"
+  paren = "flat-arc"
+  brace = "curly-flat-boundary"
+  guillemet = "straight"
+  number-sign = "upright"
+  ampersand = "flat-top"
+  at = "threefold-tall"
+  dollar = "slanted-open"
+  cent = "slanted-open"
+  percent = "rings-segmented-slash"
+  question = "smooth"
+  pilcrow = "low" # added (ss14)
+  micro-sign = "toothed-serifless" # added (ss14)
+  lig-single-arrow-bar = "without-notch"
+  lig-ltgteq = "slanted" # added (ss14)
+  lig-equal-chain = "without-notch" # added (ss14)
+  lig-hyphen-chain = "without-notch" # added (ss14)
 
   [buildPlans.UdonMono.variants.italic]
+  digit-form = "old-style"
   seven = "bend-serifless-crossbar"
   capital-t = "motion-serifed"
   a = "single-storey-tailed"
@@ -161,6 +213,12 @@ buildTextureFeature = true
   x = "chancery"
   y = "cursive-serifless"
   z = "cursive"
+  long-s = "flat-hook-tailed" # added (ss14)
+  eszet = "sulzbacher-tailed-serifless" # added (ss14)
+  lower-alpha = "barred-tailed" # added (ss14)
+  cyrl-a = "single-storey-tailed" # added (ss14)
+  cyrl-u = "cursive-flat-hook-serifless" # added (ss14)
+  cyrl-ef = "cursive" # added (ss14)
 
 [buildPlans.UdonMono.weights.Thin]
 shape = 100
@@ -267,13 +325,18 @@ description = 'A clean and lightweight customization of Iosevka.'
 inherits = "buildPlans.UdonMono"
 
 [buildPlans.UdonMonoWeb.excludeChars]
-ranges = [[0x0180,0x02ff],
-          [0x0370,0x1fff],
-          [0x2100,0x26ff],
-          [0x2800,0x28ff],
-          [0x2980,0x2aff],
-          [0x2c60,0x1f64f],
-          [0x1fb00,0x1fbf9]]
+ranges = [
+  [0x0180, 0x02FF],   # Latin Extended-B, IPA, spacing modifier letters
+  [0x0370, 0x1FFF],   # Non-Latin scripts (Greek, Cyrillic, Arabic, Hebrew, …)
+  [0x2100, 0x218F],   # Letterlike symbols & number forms (not arrows/math)
+  [0x2300, 0x24FF],   # Misc technical, control pictures, OCR, enclosed alphanumerics
+  [0x2580, 0x26FF],   # Block elements, geometric shapes, misc symbols
+  [0x2700, 0x27BF]   # Dingbags / Misc
+  [0x2800, 0x28FF],   # Braille
+  [0x2900, 0x2BFF],   # Supplemental arrows & misc symbols (beyond BMP arrows)
+  [0x2C00, 0x2E7F],   # Latin Extended-C/D/E, supplemental punctuation
+  [0x1F000, 0x1FFFF], # Emoji & pictographs (SMP)
+]
 
 [buildPlans.UdonMonoWeb.metricOverride]
 leading = 1100    # default is 1250
