@@ -69,6 +69,7 @@ buildTextureFeature = true
     ]
 
   [buildPlans.UdonMono.variants.design]
+  digit-form = "lining"
   one = "no-base"
   two = "straight-neck-serifless"
   three = "two-arcs"
@@ -183,6 +184,7 @@ buildTextureFeature = true
   lig-hyphen-chain = "without-notch" # added (ss14)
 
   [buildPlans.UdonMono.variants.italic]
+  digit-form = "old-style"
   seven = "bend-serifless-crossbar"
   capital-t = "motion-serifed"
   a = "single-storey-tailed"
